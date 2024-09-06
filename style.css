@@ -1,8 +1,36 @@
 body{
+    margin: 0%;
+    width: 100%;
     background-color: #e5e5e5;
 }
 
-section{
+.nav{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    align-items: center;
+}
+
+.nav-idea{
+    display: flex;
+}
+
+.nav-idea img{
+    width: 10%;
+    padding-right: 10px;
+}
+
+.nav-idea p{
+    font-size: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.main-section{
     background-color: #ffffff;
 }
 main{
