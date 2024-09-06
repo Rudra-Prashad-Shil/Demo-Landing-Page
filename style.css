@@ -8,33 +8,47 @@ body{
     background-color: #562EFF;
     display: flex;
     justify-content: space-around;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.nav-idea, .navigation{
+    display: flex;
     align-items: center;
 }
 
-.nav-idea{
-    display: flex;
-}
-
-.nav-idea img{
-    width: 10%;
-    padding-right: 10px;
+.nav img{
+    height: 51px;
+    padding: 0%;
 }
 
 .nav-idea p{
-    font-size: 30px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 10px;
 }
 
 .nav a{
     text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;font-size: 16px;
+    font-style: normal;font-weight: 400;
+    padding-right: 36px;
+}
+
+a:hover{
+    font-size: 25px;
 }
 
 .main-section{
     background-color: #ffffff;
+    border-radius: 5px;
 }
 main{
-    width: 870px;
+    width: 75%;
     margin: 130px auto;
     display: grid;
     gap: 20px;
