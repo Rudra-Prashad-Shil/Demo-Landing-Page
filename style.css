@@ -48,45 +48,75 @@ a:hover{
     background-color: #ffffff;
     border-radius: 5px;
 }
+
 main{
     width: 75%;
     margin: 80px auto;
     display: grid;
     gap: 20px;
 }
+
 h2, span{
     color: #562EFF;
 }
-.top-players-and-blogs{
+
+.top-players-and-blogs,.latest-course{
     padding: 3%;
     border-radius: 10px;
 }
-.players{
+
+.players , .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 20px;
 }
-.player,.blog{
+
+.player , .blog , .rating-and-time , .timestamp{
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .player img{
     width: 56px;
     height: 56px;
 }
+
 .blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     row-gap: 20px;
 }
+
 .blog img{
     width: 177px;
     height: 117px;
     border-radius: mixed;
 }
 
-.description p{
+.description p , .rating-and-time>p{
     color: #9f9f9f;
 }
 
+.course>img{
+    width: 224px;
+    height: 104px;
+    border-radius: mixed;
+}
+
+.rating-and-time img{
+    width: 20px;
+    height: 20px;
+    border-radius: mixed;
+}
+
+.owner_name{
+    color: #ED6B4F;
+}
+
+.timestamp{
+    width: 94.83px;
+    height: 29.38px;
+    background-color: #FFE4E8;
+    border-radius: 14.69px;
+}
