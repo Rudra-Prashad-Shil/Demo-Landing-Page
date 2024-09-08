@@ -54,7 +54,7 @@ main{
     display: grid;
     gap: 20px;
 }
-h2{
+h2, span{
     color: #562EFF;
 }
 .top-players-and-blogs{
@@ -66,7 +66,7 @@ h2{
     grid-template-columns: repeat(3,1fr);
     row-gap: 20px;
 }
-.player{
+.player,.blog{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -84,5 +84,9 @@ h2{
     width: 177px;
     height: 117px;
     border-radius: mixed;
+}
+
+.description p{
+    color: #9f9f9f;
 }
 
